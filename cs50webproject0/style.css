@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.nav a {
+    margin-right: 20px;
+}
+
+.middle {
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 28%;
+}
+
+.img {
+    margin-left: 30%;
+}
+
+.searchbar {
+    margin-top: 10px;
+    margin-left: 9%;
+    border-radius: 50px;
+    width: 600px;
+    height: 35px;
+}
+
+.buttons {
+    margin-left: 32%;
+    margin-top: 30px;
+}
+
+.button1 {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+

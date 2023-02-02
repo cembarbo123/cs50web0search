@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="advanced.css">
+</head>
+<body>
+    <title></title>
+
+    <div class="nav">
+
+        <div class="navlinks">
+            <a href="imagesearch.html">Images</a>
+            <a href="index.html">Search</a> 
+        </div>
+
+        <div class="img">
+            <a href="https://google.com/search">
+                <img src="googlefont.png" height="36" width="90" >
+            </a>           
+        </div>
+
+
+    </div>
+
+    <div class="text">
+        <h3>Advanced Search</h3>
+    </div>
+
+    <form action="https://google.com/search" method="get">
+        <table class="text-input-table">
+            <tr><td><h4>Find pages with...</h4><td><td class="text_two"><h4>To do this in the search box.</h4></td></td></tr>
+
+            <tr>
+                <td> All of these words: </td>
+                <td> <input name="as_q" type="text" class="searchbar-sm"> </td>
+                <td> Type the important words: tri-colour rat terrier</td>
+            </tr>
+
+            <tr>
+                <td> This exact word or phrase: </td>
+                <td><input name="as_epq" type="text" class="searchbar-sm"></td>
+                <td>Put exact words in quotes: "rat terrier"</td>
+            </tr>
+
+            <tr>
+                <td> Any of these words: </td>
+                <td> <input name="as_oq" type="text" class="searchbar-sm"> </td>
+                <td> Type OR between all the words you want: miniature OR standard </td>
+            </tr>
+
+            <tr>
+                <td> None of these words: </td>
+                <td><input name="as_eq" type="text" class="searchbar-sm"></td>
+                <td>  Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"  </td>
+            </tr>
+
+
+            <tr>
+                <td>numbers ranging from:</td>
+                <td><input type="text" class="number1" value=""  name="as_nlo">
+                <span class="seperator">To</span>
+                <input type="text" class="number2" value=""  name="as_nhi"></td>
+                <td>  Put two full stops between the numbers and add a unit of measurement: <br>
+                    10..35 kg, £300..£500, 2010..2011 </td>
+            </tr>
+
+         </table>
+         
+         <table>
+            <tr><td><h4>Then narrow your results <br> by...</h4><td></tr>
+                <tr>
+                    <td>language:</td>
+
+                    <td> <select name="lr" class="searchbar-sm">
+                        <option value=""> Any Language </option>
+                        <option value="lang_af">Afrikaans</option>
+                        <option value="lang_ar">Arabic</option>
+                        <option value="lang_hy">Armenian</option>
+                        <option value="lang_be">Belarusian</option>
+                        <option value="lang_ca">Catalan</option>
+                        <option value="lang_zh-CN">Chinese (simplified)</option>
+                        <option value="lang_zh-TW">Chinese (traditional)</option>
+                        <option value="lang_hr">Croatian</option>
+                        <option value="lang_cs">Czech</option>
+                        <option value="lang_da">Danish</option>
+                        <option value="lang_nl">Dutch</option>
+                        <option value="lang_en">English</option>
+                        <option value="lang_eo">Esperanto</option>
+                        <option value="lang_et">Estonian</option>
+                        <option value="lang_tl">Filipino</option>
+                        <option value="lang_fi">Finnish</option>
+                        <option value="lang_fr">French</option>
+                        <option value="lang_de">German</option>
+                        <option value="lang_el">Greek</option>
+                        <option value="lang_iw">Hebrew</option>
+                        <option value="lang_hi">Hindi</option>
+                        <option value="lang_hu">Hungarian</option>
+                        <option value="lang_is">Icelandic</option>
+                        <option value="lang_id">Indonesian</option>
+                        <option value="lang_it">Italian</option>
+                        <option value="lang_ja">Japanese</option>
+                        <option value="lang_ko">Korean</option>
+                        <option value="lang_lv">Latvian</option>
+                        <option value="lang_lt">Lithuanian</option>
+                        <option value="lang_no">Norwegian</option>
+                        <option value="lang_fa">Persian</option>
+                        <option value="lang_pl">Polish</option>
+                        <option value="lang_pt">Portuguese</option>
+                        <option value="lang_ro">Romanian</option>
+                        <option value="lang_ru">Russian</option>
+                        <option value="lang_sk">Slovak</option>
+                        <option value="lang_sl">Slovenian</option>
+                        <option value="lang_es">Spanish</option>
+                        <option value="lang_sw">Swahili</option>
+                        <option value="lang_sv">Swedish</option>
+                        <option value="lang_th">Thai</option>
+                        <option value="lang_tr">Turkish</option>
+                        <option value="lang_uk">Ukrainian</option>
+                        <option value="lang_vi">Vietnamese</option>
+                      </select></td>
+
+                    <td> Find pages in the language that you select. </td>
+                </tr>
+
+                <tr>
+                    <td>region: </td>
+
+                    <td> <select name="cr" class="searchbar-sm">
+                        <option value=""> Any Region </option>
+                        <option value="country_af">Afrikaans</option>
+                        <option value="country_ar">Arabic</option>
+                        <option value="country_hy">Armenian</option>
+                        <option value="country_be">Belarusian</option>
+                        <option value="country_ca">Catalan</option>
+                        <option value="country_CN">China</option>
+                        <option value="country_hr">Croatian</option>
+                        <option value="country_cs">Czech</option>
+                        <option value="country_da">Danish</option>
+                        <option value="country_nl">Dutch</option>
+                        <option value="country_en">English</option>
+                        <option value="country_eo">Esperanto</option>
+                        <option value="country_et">Estonian</option>
+                        <option value="country_tl">Filipino</option>
+                        <option value="country_fi">Finnish</option>
+                        <option value="country_fr">French</option>
+                        <option value="country_de">German</option>
+                        <option value="country_el">Greek</option>
+                        <option value="country_iw">Hebrew</option>
+                        <option value="country_hi">Hindi</option>
+                        <option value="country_hu">Hungarian</option>
+                        <option value="country_is">Icelandic</option>
+                        <option value="country_id">Indonesian</option>
+                        <option value="country_it">Italian</option>
+                        <option value="country_ja">Japanese</option>
+                        <option value="country_ko">Korean</option>
+                        <option value="country_lv">Latvian</option>
+                        <option value="country_lt">Lithuanian</option>
+                        <option value="country_no">Norwegian</option>
+                        <option value="country_fa">Persian</option>
+                        <option value="country_pl">Polish</option>
+                        <option value="country_pt">Portuguese</option>
+                        <option value="country_ro">Romanian</option>
+                        <option value="country_ru">Russian</option>
+                        <option value="country_sk">Slovak</option>
+                        <option value="country_sl">Slovenian</option>
+                        <option value="country_es">Spanish</option>
+                        <option value="country_sw">Swahili</option>
+                        <option value="country_sv">Swedish</option>
+                        <option value="country_th">Thai</option>
+                        <option value="country_tr">Turkish</option>
+                        <option value="country_uk">Ukrainian</option>
+                        <option value="country_vi">Vietnamese</option>
+                      </select></td>
+
+                    <td> Find pages published in a particular region. </td>
+                </tr>
+                
+                <tr>
+                    <td>last update: </td>
+
+                    <td><select name="as_qdr" class="searchbar-sm" >
+                        <option value="">Any Time</option>
+                        <option value="d">Past 24 hours</option>
+                        <option value="w">Past Week</option>
+                        <option value="m">Past Month</option>
+                        <option value="y">Past Year</option>
+                      </select></td>
+
+                    <td>Find pages updated within the time that you specify.</td>
+                </tr>
+
+                <tr>
+                    <td>site or domain: </td>
+                    <td><input type="text" name="as_sitesearch" value="" class="searchbar-sm" ></td>
+                    <td>Search one site (like wikipedia.org ) or limit your results to a domain like <br> .edu, .org or .gov</td>
+                </tr>
+
+                <tr>
+                    <td> terms appearing: </td>
+
+                    <td><select class="searchbar-sm">
+                        <option value="">Anywhere in the page</option>
+                        <option value="intitle:">In the title of the page</option>
+                        <option value="intext:">In the text of the page</option>
+                        <option value="inurl:">In the URL of the page</option>
+                        <option value="inlink:">In links to the page</option>
+                      </select></td>
+
+                    <td> Search for terms in the whole page, page title or web address, or links to <br> the page you're looking for. </td>
+                </tr>
+
+                <tr>
+                    <td> <a href="https://support.google.com/websearch/answer/510?hl=en&visit_id=638108941185806800-2612475354&p=adv_safesearch&rd=1">SafeSearch</a> </td>
+
+                    <td><select class="searchbar-sm" name="safesearch">
+                          <option value="off">Show Explicit Content</option>
+                          <option value="strict">Hide Explicit Content</option>
+                        </select></td>
+
+                    <td> Tell <a href="https://support.google.com/websearch/answer/510?hl=en&visit_id=638108941185806800-2612475354&p=adv_safesearch&rd=1"> SafeSearch </a> whether to filter sexually explicit content </td>
+
+                </tr>
+
+                <tr>
+                    <td>file type: </td>
+
+                    <td><select name="fileType" class="searchbar-sm" >
+                        <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+                        <option value="ps">Adobe Postscript (.ps)</option>
+                        <option value="dwf">Autodesk DWF (.dwf)</option>
+                        <option value="kml">Google Earth KML (.kml)</option>
+                        <option value="kmz">Google Earth KMZ (.kmz)</option>
+                        <option value="xls">Microsoft Excel (.xls)</option>
+                        <option value="ppt">Microsoft PowerPoint (.ppt)</option>
+                        <option value="doc">Microsoft Word (.doc)</option>
+                        <option value="rtf">Rich text Format (.rtf)</option>
+                        <option value="swf">Shockwave Flash (.swf)</option>
+                      </select></td>
+
+                    <td>Find pages in the format that you prefer</td>
+
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <a href="https://support.google.com/websearch/answer/29508?hl=en&visit_id=638109562640011934-1350109706&p=ws_images_usagerights&rd=1"> usage rights:</a>
+                    </td>
+
+                    <td>
+                        <select class="searchbar-sm" >
+                            <option value="not_filtered">Not filtered by license</option>
+                            <option value="free_use_share">Free to use or share</option>
+                            <option value="free_use_share_commercial">Free to use or share, even commercially</option>
+                            <option value="free_share_modify">Free to share or modify</option>
+                            <option value="free_use_share_modify_commercial">Free to use, share or modify, even commercially</option>
+                          </select>                          
+                    </td>
+
+                    <td>Find pages that you are free to use yourself.</td>
+                </tr>
+         </table>
+
+        <div class="buttondiv">
+            <input type="submit" value="Advanced Search" class="searchbutton">
+        </div>
+
+    </form>
+
+    <div class="alsolinks">
+        You can also...<br>
+        <a href="https://support.google.com/websearch/answer/2466433?visit_id=638109562641494555-1769644948&p=adv_pages_similar&hl=en&rd=1">Find pages that are similar to a URL</a><br>
+        <a href="https://support.google.com/websearch/answer/54068?hl=en&visit_id=638109562641494555-1769644948&p=adv_pages_visited&rd=1">Search pages that you've visited</a><br>
+        <a href="https://support.google.com/websearch/answer/2466433?visit_id=638109562641494555-1769644948&p=adv_operators&hl=en&rd=1">Use operators in the search box</a><br>
+        <a href="https://www.google.com/preferences?hl=en-TR">Customise your search settings</a><br>
+    </div>
+</body>
+</html>
